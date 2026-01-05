@@ -21,6 +21,7 @@
         .animate-float { animation: float 4s ease-in-out infinite; }
 
         .text-shadow { text-shadow: 0px 0px 15px rgba(74, 222, 128, 0.6); }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
 <body class="bg-purple-900 text-white selection:bg-green-400 selection:text-black">
@@ -32,22 +33,23 @@
             <a href="#benefits" class="hover:text-green-400 transition">Settlements</a>
             <a href="#jury" class="hover:text-green-400 transition">The Jury</a>
         </div>
-        <a href="#" class="bg-green-400 text-black px-6 py-2 rounded-full font-bold hover:bg-white transition uppercase text-sm">Buy $SueLana</a>
+        <a href="https://jup.ag" target="_blank" class="bg-green-400 text-black px-6 py-2 rounded-full font-bold hover:bg-white transition uppercase text-sm">Buy $SueLana</a>
     </nav>
 
     <section class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 flex justify-center">
+        <div class="md:w-1/2 flex justify-center order-2 md:order-1">
             <img src="suelanapfp.jpg" 
-                 class="relative -left-10 animate-float rounded-3xl shadow-[20px_20px_0px_0px_rgba(74,222,128,1)] border-4 border-white max-w-sm w-full" 
+                 class="relative animate-float rounded-3xl shadow-[20px_20px_0px_0px_rgba(74,222,128,1)] border-4 border-white max-w-sm w-full" 
                  alt="SueLana Mascot">
         </div>
-        <div class="md:w-1/2 mt-12 md:mt-0 text-center md:text-left">
-            <h2 class="text-7xl font-black leading-none mb-6 italic uppercase">See you in <span class="text-green-400 text-shadow">Court.</span></h2>
+        <div class="md:w-1/2 mt-12 md:mt-0 text-center md:text-left order-1 md:order-2">
+            <h2 class="text-6xl md:text-7xl font-black leading-none mb-6 italic uppercase">See you in <span class="text-green-400 text-shadow">Court.</span></h2>
             <p class="text-xl text-purple-200 mb-8 font-medium">The Solana ecosystem has been injured. We are filing a class-action movement against boring charts and rug pulls. High-tier memes, legal-grade pumps.</p>
             <div class="flex flex-wrap gap-4 justify-center md:justify-start">
                 <a href="https://t.me/SueLanaOfficial420" target="_blank" class="bg-white text-purple-900 px-8 py-4 rounded-lg font-black uppercase tracking-widest hover:bg-green-400 transition shadow-lg">Telegram</a>
-                </div>
-            <p class="mt-6 font-mono text-green-400 text-xs break-all bg-purple-950/50 p-2 rounded">CA: [PASTE_CONTRACT_ADDRESS_HERE]</p>
+                <a href="#evidence" class="border-2 border-white px-8 py-4 rounded-lg font-black uppercase tracking-widest hover:bg-white hover:text-purple-900 transition">The Case File</a>
+            </div>
+            <p class="mt-6 font-mono text-green-400 text-xs break-all bg-purple-950/50 p-2 rounded inline-block">CA: [PASTE_CONTRACT_ADDRESS_HERE]</p>
         </div>
     </section>
 
@@ -120,8 +122,8 @@
     <footer class="bg-black text-gray-500 py-16 border-t border-gray-900">
         <div class="container mx-auto px-6 text-center text-xs font-mono">
             <p class="mb-6 text-gray-400 font-bold uppercase tracking-widest">*** OFFICIAL LEGAL DISCLAIMER ***</p>
-            <p class="max-w-3xl mx-auto mb-6">
-                $SueLana is a meme coin with zero intrinsic value. This project is for entertainment purposes only and is not a licensed legal service. Holding $SueLana does not grant you a lawyer, a lawsuit, or any real-world rights. 
+            <p class="max-w-3xl mx-auto mb-6 leading-relaxed">
+                $SueLana is a meme coin with zero intrinsic value. This project is for entertainment purposes only and is not a licensed legal service. Holding $SueLana does not grant you a lawyer, a lawsuit, or any real-world rights. Crypto assets are highly volatile. Don't trade money you need for rent, groceries, or actual legal fees.
             </p>
             <p class="mb-8">&copy; 2026 SueLana Court of Memes. Case Closed. ⚖️</p>
         </div>
