@@ -9,6 +9,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
         body { font-family: 'Inter', sans-serif; }
         .legal-border { border-style: double; border-width: 6px; }
+        
+        /* Floating Animation */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float { animation: float 3s ease-in-out infinite; }
     </style>
 </head>
 <body class="bg-purple-900 text-white selection:bg-green-400 selection:text-black">
@@ -25,7 +33,9 @@
 
     <section class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 flex justify-center">
-            <img src="suelanapfp.jpg" class="rounded-3xl shadow-[20px_20px_0px_0px_rgba(74,222,128,1)] border-4 border-white max-w-sm w-full" alt="Sue Lana Mascot">
+            <img src="suelanapfp.jpg" 
+                 class="relative -left-8 animate-float rounded-3xl shadow-[20px_20px_0px_0px_rgba(74,222,128,1)] border-4 border-white max-w-sm w-full" 
+                 alt="Sue Lana Mascot">
         </div>
         <div class="md:w-1/2 mt-12 md:mt-0 text-center md:text-left">
             <h2 class="text-7xl font-black leading-none mb-6 italic uppercase">See you in <span class="text-green-400 text-shadow">Court.</span></h2>
@@ -44,7 +54,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="p-8 bg-purple-950 rounded-xl border-2 border-purple-500 hover:border-green-400 transition">
                     <p class="text-green-400 text-sm font-bold uppercase mb-2">Total Supply</p>
-                    <p class="text-4xl font-black">1,000,000,000</p>
+                    <p class="text-4xl font-black">1 Billion</p>
                 </div>
                 <div class="p-8 bg-purple-950 rounded-xl border-2 border-purple-500 hover:border-green-400 transition">
                     <p class="text-green-400 text-sm font-bold uppercase mb-2">Buy/Sell Tax</p>
