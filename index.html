@@ -3,48 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUE LANA | The Class Action of Solana</title>
+    <title>SueLana | The Class Action of Solana</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Libre+Baskerville:italic,700&display=swap');
+        
         body { font-family: 'Inter', sans-serif; }
+        .legal-font { font-family: 'Libre Baskerville', serif; }
         .legal-border { border-style: double; border-width: 6px; }
         
-        /* Floating Animation */
+        /* Floating Animation for the Mascot */
         @keyframes float {
             0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
+            50% { transform: translateY(-15px); }
             100% { transform: translateY(0px); }
         }
-        .animate-float { animation: float 3s ease-in-out infinite; }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+
+        .text-shadow { text-shadow: 0px 0px 15px rgba(74, 222, 128, 0.6); }
     </style>
 </head>
 <body class="bg-purple-900 text-white selection:bg-green-400 selection:text-black">
 
     <nav class="p-6 flex justify-between items-center border-b border-green-400 bg-purple-950 sticky top-0 z-50">
-        <h1 class="text-2xl font-black tracking-tighter italic text-green-400">SUE LANA ($SUE)</h1>
+        <h1 class="text-2xl font-black tracking-tighter italic text-green-400">SueLana ($SueLana)</h1>
         <div class="hidden md:flex gap-6 font-bold uppercase text-sm">
-            <a href="#evidence" class="hover:text-green-400">Evidence</a>
-            <a href="#benefits" class="hover:text-green-400">Settlements</a>
-            <a href="#jury" class="hover:text-green-400">The Jury</a>
+            <a href="#evidence" class="hover:text-green-400 transition">Evidence</a>
+            <a href="#benefits" class="hover:text-green-400 transition">Settlements</a>
+            <a href="#jury" class="hover:text-green-400 transition">The Jury</a>
         </div>
-        <a href="#" class="bg-green-400 text-black px-6 py-2 rounded-full font-bold hover:bg-white transition uppercase text-sm">Buy $SUE</a>
+        <a href="#" class="bg-green-400 text-black px-6 py-2 rounded-full font-bold hover:bg-white transition uppercase text-sm">Buy $SueLana</a>
     </nav>
 
     <section class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 flex justify-center">
             <img src="suelanapfp.jpg" 
-                 class="relative -left-8 animate-float rounded-3xl shadow-[20px_20px_0px_0px_rgba(74,222,128,1)] border-4 border-white max-w-sm w-full" 
-                 alt="Sue Lana Mascot">
+                 class="relative -left-10 animate-float rounded-3xl shadow-[20px_20px_0px_0px_rgba(74,222,128,1)] border-4 border-white max-w-sm w-full" 
+                 alt="SueLana Mascot">
         </div>
         <div class="md:w-1/2 mt-12 md:mt-0 text-center md:text-left">
             <h2 class="text-7xl font-black leading-none mb-6 italic uppercase">See you in <span class="text-green-400 text-shadow">Court.</span></h2>
             <p class="text-xl text-purple-200 mb-8 font-medium">The Solana ecosystem has been injured. We are filing a class-action movement against boring charts and rug pulls. High-tier memes, legal-grade pumps.</p>
             <div class="flex flex-wrap gap-4 justify-center md:justify-start">
-                <a href="#" class="bg-white text-purple-900 px-8 py-4 rounded-lg font-black uppercase tracking-widest hover:bg-green-400 transition">Telegram</a>
-                <a href="#" class="border-2 border-green-400 text-green-400 px-8 py-4 rounded-lg font-black uppercase tracking-widest hover:bg-green-400 hover:text-black transition">Twitter / X</a>
-            </div>
-            <p class="mt-6 font-mono text-green-400 text-xs break-all">CA: [PASTE_CONTRACT_ADDRESS_HERE]</p>
+                <a href="https://t.me/SueLanaOfficial420" target="_blank" class="bg-white text-purple-900 px-8 py-4 rounded-lg font-black uppercase tracking-widest hover:bg-green-400 transition shadow-lg">Telegram</a>
+                </div>
+            <p class="mt-6 font-mono text-green-400 text-xs break-all bg-purple-950/50 p-2 rounded">CA: [PASTE_CONTRACT_ADDRESS_HERE]</p>
         </div>
     </section>
 
@@ -65,64 +68,3 @@
                     <p class="text-4xl font-black uppercase">Burned ⚖️</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="benefits" class="py-20 bg-black">
-        <div class="container mx-auto px-6">
-            <h3 class="text-4xl font-black mb-16 text-center uppercase italic">Monthly <span class="text-green-400 text-shadow">Settlements</span></h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                <div class="p-10 border-2 border-green-400 rounded-2xl bg-purple-900/10 hover:bg-purple-900/30 transition">
-                    <h4 class="text-2xl font-black mb-4 uppercase italic text-green-400">🔥 Monthly Buybacks</h4>
-                    <p class="text-gray-300 leading-relaxed text-lg">Every 30 days, our legal fund performs a massive market buyback. We buy the dip and burn the tokens to ensure $SUE only goes UP. No settlements out of court!</p>
-                </div>
-                <div class="p-10 border-2 border-green-400 rounded-2xl bg-purple-900/10 hover:bg-purple-900/30 transition">
-                    <h4 class="text-2xl font-black mb-4 uppercase italic text-green-400">🪂 Monthly Airdrops</h4>
-                    <p class="text-gray-300 leading-relaxed text-lg">The most loyal plaintiffs get paid. We perform monthly snapshots of our top holders. If you haven't sold, you get a "Retainer Fee" airdropped directly to your wallet.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="jury" class="py-20 bg-purple-950 border-t-4 border-dashed border-green-400">
-        <div class="container mx-auto px-6 max-w-4xl">
-            <div class="bg-white p-8 md:p-12 text-black legal-border border-black shadow-[15px_15px_0px_0px_rgba(74,222,128,1)]">
-                <h3 class="text-4xl font-black uppercase mb-6 border-b-4 border-black pb-4 italic tracking-tighter">
-                    The Diamond Jury Selection
-                </h3>
-                <p class="mb-8 font-serif italic text-xl text-gray-700">
-                    "To ensure the stability of the $SUE ecosystem, the Court hereby establishes the criteria for monthly witness rewards."
-                </p>
-                <ul class="space-y-6 font-bold uppercase tracking-tight text-lg">
-                    <li class="flex items-start gap-4">
-                        <span class="bg-black text-white px-2 py-1 text-xs mt-1">01</span> 
-                        <span>No Perjury: Any wallet that executes a "SELL" order is disqualified from the monthly snapshot.</span>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <span class="bg-black text-white px-2 py-1 text-xs mt-1">02</span> 
-                        <span>Minimum Retainer: You must hold at least 500,000 $SUE at the time of the surprise snapshot.</span>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <span class="bg-black text-white px-2 py-1 text-xs mt-1">03</span> 
-                        <span>Witness Protection: Top 100 Jury members share 20% of the marketing fund via direct airdrop.</span>
-                    </li>
-                </ul>
-                <div class="mt-12 pt-6 border-t border-gray-300 text-center">
-                    <p class="text-xs font-mono uppercase text-gray-500 italic">Snapshots are random. Stay ready. Stay legal. Case closed.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-black text-gray-500 py-16 border-t border-gray-900">
-        <div class="container mx-auto px-6 text-center text-xs font-mono">
-            <p class="mb-6 text-gray-400 font-bold uppercase tracking-widest">*** OFFICIAL LEGAL DISCLAIMER ***</p>
-            <p class="max-w-3xl mx-auto mb-6">
-                $SUE (Sue Lana) is a meme coin with zero intrinsic value. This project is for entertainment purposes only and is not a licensed legal service. Holding $SUE does not grant you a lawyer, a lawsuit, or any real-world rights. Crypto assets are highly volatile. Don't trade money you need for rent, groceries, or actual legal fees.
-            </p>
-            <p class="mb-8">&copy; 2026 Sue Lana Court of Memes. Case Closed. ⚖️</p>
-        </div>
-    </footer>
-
-</body>
-</html>
